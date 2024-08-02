@@ -1,3 +1,4 @@
+//import Patterns.ObserverPattern.Store;
 import Patterns.StrategyPattern.With.OffRoadVehicle;
 import Patterns.StrategyPattern.With.PassengerVehicle;
 import Patterns.StrategyPattern.With.SportsVehicle;
@@ -10,15 +11,15 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 //        List<Vehicle> vehicles = new ArrayList<>();
-//        vehicles.add(new Car());
-//        vehicles.add(new MotorCycle());
-//        vehicles.add(new Bicycle());
+//        vehicles.addObserver(new Car());
+//        vehicles.addObserver(new MotorCycle());
+//        vehicles.addObserver(new Bicycle());
 //        for (Vehicle vehicle : vehicles) {
 //            System.out.println(vehicle.getNumberOfWheels().toString());
 //        }
 //        List<EngineVehicle> engineVehicles = new ArrayList<>();
-//        engineVehicles.add(new Car());
-//        engineVehicles.add(new MotorCycle());
+//        engineVehicles.addObserver(new Car());
+//        engineVehicles.addObserver(new MotorCycle());
 //        for (EngineVehicle engineVehicle : engineVehicles) {
 //            System.out.println(engineVehicle.hasEngine().toString());
 //        }
@@ -28,6 +29,9 @@ public class Main {
 //        sportsVehicle.drive(); // Sports drive capability
 //        Vehicle offRoadVehicle = new OffRoadVehicle();
 //        offRoadVehicle.drive(); // Sports drive capability
+
+//        Store store = new Store();
+//        store.driverCodeForMainFunction();
 
 
     }

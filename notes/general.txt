@@ -1,0 +1,1 @@
+1. Prefer wrapper class return types rather than their primitives for method return types, since, they can hold `null`, but degrade performance due to object creation and memory usage
