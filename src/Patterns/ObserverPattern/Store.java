@@ -20,6 +20,7 @@ public class Store {
 
         iphoneStockObservable.setStockCount(10);
         iphoneStockObservable.setStockCount(-10);
+
         iphoneStockObservable.remove(observer2);
         iphoneStockObservable.setStockCount(10);
     }

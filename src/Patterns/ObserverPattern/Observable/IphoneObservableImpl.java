@@ -22,7 +22,7 @@ public class IphoneObservableImpl implements StockObservable{
     @Override
     public void notifySubscribers() {
         for (NotificationAlertObserver observer : observerList) {
-            observer.update();  // not sending this instance of observable because of "has-a" relationship
+            observer.update();  // not sending this instance of observable because of constructor injection
         }
     }
 

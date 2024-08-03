@@ -1,4 +1,6 @@
 //import Patterns.ObserverPattern.Store;
+import Patterns.DecoratorPattern.DecoratorDriver;
+import Patterns.StrategyPattern.StrategyDriverCode;
 import Patterns.StrategyPattern.With.OffRoadVehicle;
 import Patterns.StrategyPattern.With.PassengerVehicle;
 import Patterns.StrategyPattern.With.SportsVehicle;
@@ -23,15 +25,18 @@ public class Main {
 //        for (EngineVehicle engineVehicle : engineVehicles) {
 //            System.out.println(engineVehicle.hasEngine().toString());
 //        }
-//        Vehicle passengerVehicle = new PassengerVehicle();
-//        passengerVehicle.drive(); // Normal drive capability
-//        Vehicle sportsVehicle = new SportsVehicle();
-//        sportsVehicle.drive(); // Sports drive capability
-//        Vehicle offRoadVehicle = new OffRoadVehicle();
-//        offRoadVehicle.drive(); // Sports drive capability
+
+//        StrategyDriverCode strategyDriverCode = new StrategyDriverCode();
+//        strategyDriverCode.driverFunction();
 
 //        Store store = new Store();
 //        store.driverCodeForMainFunction();
+
+//        DecoratorDriver driver = new DecoratorDriver();
+//        driver.driver();
+
+
+
 
 
     }
