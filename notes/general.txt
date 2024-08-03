@@ -1,1 +1,3 @@
 1. Prefer wrapper class return types rather than their primitives for method return types, since, they can hold `null`, but degrade performance due to object creation and memory usage
+2. `record` keyword is used as a data-carrier class which allows a constructor to initialize all the fields at the time of object creation and all fields are final. reduces boilerplate code.
+3. use-case of record like `public record Ticket` is when all fields are final and only getter() methods was the requirement.
