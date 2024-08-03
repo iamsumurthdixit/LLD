@@ -1,7 +1,7 @@
 package Patterns.DecoratorPattern;
 
 public class DecoratorDriver {
-    public void driver() {
+    public static void driver() {
         BasePizza margherita = new Margherita();
         System.out.println(margherita.cost()); // 100
 

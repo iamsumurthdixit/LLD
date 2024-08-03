@@ -6,8 +6,8 @@ import Patterns.ObserverPattern.Observer.EmailAlertObserverImpl;
 import Patterns.ObserverPattern.Observer.MobileAlertObserverImpl;
 import Patterns.ObserverPattern.Observer.NotificationAlertObserver;
 
-public class Store {
-    public void driverCodeForMainFunction() {
+public class ObserverDriver {
+    public static void driver() {
         StockObservable iphoneStockObservable = new IphoneObservableImpl();
 
         NotificationAlertObserver observer1 = new EmailAlertObserverImpl("user1@gmail.com", iphoneStockObservable);

@@ -1,14 +1,8 @@
-//import Patterns.ObserverPattern.Store;
+import Patterns.FactoryPattern.AbstractFactory.AbstractFactoryDriver;
+import Patterns.ObserverPattern.ObserverDriver;
 import Patterns.DecoratorPattern.DecoratorDriver;
-import Patterns.StrategyPattern.StrategyDriverCode;
-import Patterns.StrategyPattern.With.OffRoadVehicle;
-import Patterns.StrategyPattern.With.PassengerVehicle;
-import Patterns.StrategyPattern.With.SportsVehicle;
-import Patterns.StrategyPattern.With.Vehicle;
-import Solid.*;
-
-import java.util.ArrayList;
-import java.util.List;
+import Patterns.FactoryPattern.Factory.FactoryDriver;
+import Patterns.StrategyPattern.StrategyDriver;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,14 +20,15 @@ public class Main {
 //            System.out.println(engineVehicle.hasEngine().toString());
 //        }
 
-//        StrategyDriverCode strategyDriverCode = new StrategyDriverCode();
-//        strategyDriverCode.driverFunction();
-
-//        Store store = new Store();
-//        store.driverCodeForMainFunction();
-
-//        DecoratorDriver driver = new DecoratorDriver();
-//        driver.driver();
+//        StrategyDriver.driver();
+//
+//        ObserverDriver.driver();
+//
+//        DecoratorDriver.driver();
+//
+//        FactoryDriver.driver();
+//
+//        AbstractFactoryDriver.driver();
 
 
 
