@@ -3,6 +3,7 @@ import Patterns.ObserverPattern.ObserverDriver;
 import Patterns.DecoratorPattern.DecoratorDriver;
 import Patterns.FactoryPattern.Factory.FactoryDriver;
 import Patterns.StrategyPattern.StrategyDriver;
+import Systems.LoggerSystem.LoggerDriver;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,6 +31,7 @@ public class Main {
 //
 //        AbstractFactoryDriver.driver();
 
+        LoggerDriver.driver();
 
 
 
