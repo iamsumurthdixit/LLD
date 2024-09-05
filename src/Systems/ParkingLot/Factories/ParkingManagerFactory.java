@@ -11,7 +11,7 @@ public class ParkingManagerFactory {
         VehicleType vehicleType = vehicle.getVehicleType();
 
         return switch (vehicleType) {
-            case TW0_WHEELER -> new TwoWheelerManager();
+            case TWO_WHEELER -> new TwoWheelerManager();
             case FOUR_WHEELER -> new FourWheelerManager();
             default -> null;
         };

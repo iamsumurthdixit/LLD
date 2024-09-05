@@ -11,7 +11,7 @@ public class CostComputationFactory {
         VehicleType vehicleType = ticket.getVehicle().getVehicleType();
 
         return switch (vehicleType) {
-            case TW0_WHEELER -> new TwoWheelerCost();
+            case TWO_WHEELER -> new TwoWheelerCost();
             case FOUR_WHEELER -> new FourWheelerCost();
             default -> null;
         };

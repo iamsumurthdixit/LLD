@@ -1,6 +1,6 @@
 package Systems.ParkingLot.Enums;
 
 public enum VehicleType {
-    TW0_WHEELER,
+    TWO_WHEELER,
     FOUR_WHEELER,
 }
