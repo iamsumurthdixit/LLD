@@ -1,0 +1,4 @@
+git config user.name "iamsumurthdixit"
+git config user.email "sumurth17dixit05@gmail.com"
+
+git remote set-url origin git@github-personal:iamsumurthdixit/my-personal-repo.git
